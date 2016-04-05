@@ -3,7 +3,7 @@ package com.ic.leacture1;
 public class Test {
 
 	public static void main(String[] args) {
-		Test t = new Test();// First way to create Inner class object.
+		Test t = new Test();// First way to create Inner class object. Sample change to merge in GIT 
 		InnerTest test = t.new InnerTest();
 		test.test();
 		
